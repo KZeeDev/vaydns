@@ -152,5 +152,5 @@ jobs:
           push: true
           build-args: VERSION=${{ steps.version.outputs.VERSION }}
           tags: |
-            ghcr.io/${{ github.repository }}:${{ steps.version.outputs.VERSION }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/kzeedev/vaydns:${{ steps.version.outputs.VERSION }}
+            ghcr.io/kzeedev/vaydns:latest
