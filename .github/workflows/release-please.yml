@@ -120,7 +120,6 @@ jobs:
 
   docker-release:
     needs: release-please
-    if: ${{ needs.release-please.outputs.release_created }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
