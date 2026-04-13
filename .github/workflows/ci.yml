@@ -120,5 +120,5 @@ jobs:
           file: Dockerfile
           push: true
           build-args: VERSION=dev-${{ env.SHORT_SHA }}
-          tags: ghcr.io/${{ github.repository }}:dev-${{ env.SHORT_SHA }}
+          tags: ghcr.io/kzeedev/vaydns:dev-${{ env.SHORT_SHA }}
 
